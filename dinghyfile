@@ -3,7 +3,7 @@
   "pipelines": [
     {
       "application": "appdinghyexample",
-      "name": "dinghyfile | controlled pipeline from GitHub.",
+      "name": "dinghyfile controlled pipeline from GitHub.",
       "keepWaitingPipelines": false,
       "lastModifiedBy": "anonymous",
       "limitConcurrent": true,
