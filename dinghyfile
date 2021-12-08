@@ -2,6 +2,24 @@
   "application": "appdinghyexample",
   "pipelines": [
     {
+      "keepWaitingPipelines": false,
+      "lastModifiedBy": "anonymous",
+      "limitConcurrent": true,
+      "spelEvaluator": "v4",
+      "stages": [
+        {
+          "isNew": true,
+          "name": "Wait",
+          "refId": "1",
+          "requisiteStageRefIds": [],
+          "type": "wait",
+          "waitTime": 30
+        }
+      ],
+      "triggers": [],
+      "updateTs": "1638991565000"
+    },
+    {
       "application": "appdinghyexample",
       "name": "dinghyfile controlled pipeline from GitHub.",
       "keepWaitingPipelines": false,
